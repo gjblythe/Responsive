@@ -1,5 +1,5 @@
 html {
-    width: 960px;
+    width: 980px;
     width: 100%;
     height: 100%;
 }
@@ -144,4 +144,82 @@ footer {
     width: 160px;
     height: 140px;
     
+}
+
+@media only screen and (max-width: 640px)  {
+    h1 {
+      /* background: #ffffff;
+      color: #4aaaa5; */
+      left: 35px;
+      text-align: center;
+    }
+
+    .Links{
+        display: block;
+        margin: 0px;
+        top: 25px;
+        z-index: 1;
+    }
+
+    .About {
+        width: 87%;
+        margin: 5px;
+    
+    }
+ .IndexImg {
+     width: 38%;
+     height: 38%;
+ }
+
+ p {
+     margin: 10px;
+     padding: 10px;
+
+ }
+ body {
+     /* background: #ffffff; */
+ }
+
+ hr {
+     color: #ffffff;
+ }
+
+ input {
+     border: solid 1px #cccccc;
+ }
+
+ .Stock {
+    display: inherit;
+    padding: 5px;
+    margin-left: 140px;
+    width: 500px;
+    height: 500px;
+    align-content: center;
+    
+ }
+ 
+ .Box {
+     margin: 60px;
+     padding: 0px;
+     width: 510px;
+     
+ }
+
+}
+
+@media only screen and (max-width: 768px)  {
+
+    .Stock {
+        width: 50%;
+        height: 50%;
+    }
+    .About {
+        margin: 15px;
+        padding-bottom: 5px;
+    }
+
+    input {
+        border: solid 1px #cccccc;
+    }
+
 }
