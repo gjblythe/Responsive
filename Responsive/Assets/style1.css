@@ -1,0 +1,147 @@
+html {
+    width: 960px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Header {
+    background: #ffffff;
+    border-bottom: solid #cccccc 2px;
+    padding: 20px;
+    display: block; 
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* 
+nav {
+    position: relative;
+    top: 5px;
+    right: 50px;
+    display: block;
+} */
+
+body {
+    background-image: url(qbkls.png);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    background: #4aaaa5;
+    padding: 20px;
+    width: 250px;
+    z-index: 1;
+    display: inline;
+    position: relative;
+    left: 100px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Links {
+    padding: 10px 30px 10px 60px;
+    margin-left: 100px;
+    color: #777777;
+    text-decoration: none;
+    float: right;
+    position: fixed;
+    right: 50px;
+    display: inline;
+    position: absolute;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cccccc;
+    text-decoration: none;
+}
+.IndexImg {
+    width: 200px;
+    height: 250px;
+    float: left;
+    padding-right:30px;
+}
+
+.About {
+    width: 640px;
+    padding: 20px;
+    margin: 40px 140px 50px 140px;
+    background:  #ffffff;
+    color: #777777;
+    position: relative;
+    align: center;
+    
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0px 10px 0px;
+
+}
+
+p {
+    margin-left: 30px;
+    padding: 20px;
+    text-indent: 50px;
+    position: static;
+}
+
+.Box {
+    padding: 20px;
+    margin: 40px 140px 100px 140px;
+    background:  #ffffff;
+}
+
+hr {
+    color: #777777;
+}
+
+input {
+    width: 96%;
+    padding: 5px;
+}
+
+textarea {
+    width: 95%;
+    height: 200px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: solid 1px #cccccc;
+}
+
+.Submit {
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: #cccccc;
+    position: sticky;
+    color: #ffffff;
+}
+
+.Stock {
+    display: inline;
+    width: 160px;
+    height: 140px;
+    
+}
