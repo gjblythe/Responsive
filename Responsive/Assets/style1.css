@@ -40,16 +40,18 @@ h1 {
 }
 
 .Links {
-    padding: 10px 30px 10px 60px;
-    margin-left: 100px;
-    color: #777777;
-    text-decoration: none;
-    float: right;
-    position: fixed;
-    right: 50px;
-    display: inline;
-    position: absolute;
+float: right;
+display: block;
+
 }
+
+.display {
+  padding: 6px;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  left: 12px;
+  visibility: hidden;
+} 
 
 a:link {
     color: #777777;
@@ -66,10 +68,10 @@ a:hover {
     text-decoration: none;
 }
 .IndexImg {
-    width: 200px;
-    height: 250px;
+    width: 50%;
+    height: 50%;
     float: left;
-    padding-right:30px;
+    padding: 10px;
 }
 
 .About {
@@ -98,8 +100,9 @@ p {
 }
 
 .Box {
-    padding: 20px;
-    margin: 40px 140px 100px 140px;
+    width: 80%;
+    padding: 0px;
+    margin: 40px;
     background:  #ffffff;
 }
 
@@ -140,9 +143,8 @@ footer {
 }
 
 .Stock {
-    display: inline;
-    width: 160px;
-    height: 140px;
+    width: 240px;
+    padding: 10px;
     
 }
 
@@ -150,20 +152,21 @@ footer {
     h1 {
       /* background: #ffffff;
       color: #4aaaa5; */
-      left: 35px;
-      text-align: center;
+      left: 0px;
+      font-size: 20px;
+      /* text-align: center; */
     }
 
     .Links{
-        display: block;
-        margin: 0px;
-        top: 25px;
-        z-index: 1;
+    font-size: 14px;
+    display: none;
+    
     }
 
     .About {
-        width: 87%;
-        margin: 5px;
+        width: 75%;
+        margin: 0px;
+        left: 2px;
     
     }
  .IndexImg {
@@ -189,21 +192,27 @@ footer {
  }
 
  .Stock {
-    display: inherit;
-    padding: 5px;
-    margin-left: 140px;
-    width: 500px;
-    height: 500px;
-    align-content: center;
+    padding-left: 65px;
     
  }
  
  .Box {
-     margin: 60px;
-     padding: 0px;
-     width: 510px;
+     margin: 20px 20px 20px 25px;
+     padding: 20px;
+     width: 75%;
      
  }
+
+ footter {
+     margin-top: 15px;
+    position: relative;
+    left: 0px;   
+ }
+
+ .display {
+     visibility: visible;
+ }
+ 
 
 }
 
@@ -221,5 +230,10 @@ footer {
     input {
         border: solid 1px #cccccc;
     }
+
+}
+
+@media only screen and (max-width: 980px)  {
+    
 
 }
