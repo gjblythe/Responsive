@@ -68,8 +68,8 @@ a:hover {
     text-decoration: none;
 }
 .IndexImg {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    /* height: 50%; */
     float: left;
     padding: 10px;
 }
@@ -229,6 +229,15 @@ footer {
 
     input {
         border: solid 1px #cccccc;
+    }
+
+    .IndexImg {
+            width: 38%;
+            height: 38%;
+    }
+
+    
+        
     }
 
 }
