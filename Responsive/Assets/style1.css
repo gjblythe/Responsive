@@ -68,8 +68,7 @@ a:hover {
     text-decoration: none;
 }
 .IndexImg {
-    width: 40%;
-    /* height: 50%; */
+    width: 33%;
     float: left;
     padding: 10px;
 }
@@ -195,7 +194,9 @@ footer {
     padding-left: 65px;
     
  }
+
  
+
  .Box {
      margin: 20px 20px 20px 25px;
      padding: 20px;
@@ -232,13 +233,12 @@ footer {
     }
 
     .IndexImg {
-            width: 38%;
-            height: 38%;
+           width: 33%
     }
 
     
         
-    }
+    
 
 }
 
